@@ -13,6 +13,6 @@
 
 int main()
 {
-  printf("Hello wORLDDDDD\n");;
+  printf("Fisrt test, oh Yeah\n");;
   return (0);
 }
