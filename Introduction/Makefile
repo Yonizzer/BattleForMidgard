@@ -5,7 +5,7 @@
 ## Login   <poli_y@etna-alternance.net>
 ## 
 ## Started on  Mon Dec 14 20:51:43 2015 POLI Yoann
-## Last update Tue Dec 15 10:09:02 2015 POLI Yoann
+## Last update Tue Dec 15 10:50:02 2015 POLI Yoann
 ##
 
 CC =		gcc
@@ -13,7 +13,8 @@ NAME =		sta
 NAME_GDB =	sta_debug
 SRC =		main.c \
 		parse_arg.c \
-		help.c
+		help.c \
+		begin.c
 
 OBJ =		$(SRC:%.c=%.o)
 RM = 		rm -rf
