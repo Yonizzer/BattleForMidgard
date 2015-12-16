@@ -4,9 +4,10 @@
 ** Made by HUSSAIN Faisal
 ** Login   <hussai_f@etna-alternance.net>
 ** 
-** Started on  Wed Dec 16 10:28:52 2015 HUSSAIN Faisal
-** Last update Wed Dec 16 11:16:33 2015 HUSSAIN Faisal
+** Started on  Wed Dec 16 15:24:37 2015 HUSSAIN Faisal
+** Last update Wed Dec 16 15:25:02 2015 HUSSAIN Faisal
 */
+
 
 #include "headers/libmy.h"
 #include "headers/lib_battle.h"
@@ -18,5 +19,5 @@ void	message_handler(int error)
   else if (error == 1)
     my_putstr("You have leave the game!\n");
   else
-    my_putstr("TOTOAOTA\n");
+    my_putstr("\n");
 }

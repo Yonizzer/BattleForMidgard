@@ -5,21 +5,35 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 08:50:05 2015 POLI Yoann
-** Last update Wed Dec 16 10:47:14 2015 HUSSAIN Faisal
+** Last update Wed Dec 16 16:24:06 2015 HUSSAIN Faisal
 */
 
 #include <stdlib.h>
 #include <string.h>
+#include "headers/lib_battle.h"
 
-#define NBCREA 5
+#define NBCREA 18
 
 static t_creature g_creatures[] =
   {
-    {"Koopa", 1, 10, 10, 20, 20},
-    {"Bob bomb", 1, 10, 10, 20, 20},
-    {"Yoshi", 1, 10, 10, 20, 20},
-    {"Maskas", 1, 10, 10, 20, 20},
-    {"Kucco", 1, 10, 10, 20, 20},
+    {"Koopa", 1, 70, 70, 40, 40},
+    {"Master", 1, 30, 30, 60, 60},
+    {"Yoshi", 1, 30, 30, 18, 18},
+    {"Maskas", 1, 40, 40, 20, 20},
+    {"Bic4C", 1, 10, 10, 50, 50},
+    {"Askip", 1, 50, 50, 25, 25},
+    {"Salfaizzer", 1, 50, 50, 20, 20},
+    {"ShaneDanger", 1, 50, 50, 20, 20},
+    {"MikeMike", 1, 50, 50, 20, 20},
+    {"Toinou", 1, 50, 50, 20, 20},
+    {"Panda", 1, 50, 50, 20, 20},
+    {"Pingouin", 1, 50, 50, 20, 20},
+    {"Enileda", 1, 50, 50, 20, 20},
+    {"Karaba", 1, 50, 50, 20, 20},
+    {"Yopo", 1, 50, 50, 20, 20},
+    {"Bangbang", 1, 50, 50, 20, 20},
+    {"Salfaipas", 1, 50, 50, 20, 20},
+    {"Yonizzer", 1, 10, 10, 50, 50},
     {NULL, 0, 0, 0, 0, 0}
   };
 
