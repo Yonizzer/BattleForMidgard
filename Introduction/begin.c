@@ -5,7 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 10:33:26 2015 POLI Yoann
-** Last update Wed Dec 16 10:36:29 2015 HUSSAIN Faisal
+** Last update Wed Dec 16 11:31:24 2015 POLI Yoann
 */
 
 #include <stdlib.h>
@@ -31,7 +31,7 @@ int	choice_handler(char *choice, char *name)
 int	begin(char *name)
 {
   char	*choice;
-  
+
   my_putstr("It's your turn ");
   my_putstr(name);
   my_putstr(" > ");

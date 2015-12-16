@@ -5,7 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Mon Dec 14 19:52:15 2015 POLI Yoann
-** Last update Wed Dec 16 11:10:56 2015 HUSSAIN Faisal
+** Last update Wed Dec 16 11:33:48 2015 POLI Yoann
 */
 
 #include "stdlib.h"
@@ -15,7 +15,7 @@
 int	runprogram(char **argv)
 {
   int	out_begin;
-  
+
   out_begin = begin(argv[2]);
   message_handler(out_begin);
   return (0);

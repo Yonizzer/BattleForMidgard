@@ -5,17 +5,13 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Mon Oct 19 14:24:55 2015 POLI Yoann
-** Last update Mon Oct 19 14:40:54 2015 POLI Yoann
+** Last update Wed Dec 16 11:36:34 2015 POLI Yoann
 */
 
 int	my_isneg(int n)
 {
   if (n >= 0)
-    {
-      return (1);
-    }
+    return (1);
   else
-    {
-      return (0);
-    }
+    return (0);
 }

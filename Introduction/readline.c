@@ -5,14 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 08:48:17 2015 POLI Yoann
-** Last update Tue Dec 15 15:41:31 2015 POLI Yoann
-*/
-
-/*
-  Cette fonction permet de récuper une ligne
-  de moins de 50 caracteres sur l'entrée standard.
-  La fonction ne prend pas de paramètre et renvoi une chaine
-  allouée (pensez a free()).
+** Last update Wed Dec 16 11:34:38 2015 POLI Yoann
 */
 
 #include <unistd.h>

@@ -5,7 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Mon Dec 14 20:11:33 2015 POLI Yoann
-** Last update Mon Dec 14 20:20:06 2015 POLI Yoann
+** Last update Wed Dec 16 11:32:44 2015 POLI Yoann
 */
 
 #ifndef LIBMY_H_
@@ -28,5 +28,4 @@ char	*mystrncat(char *str1, char *str2, int n);
 char	*my_strstr(char *str, char to_find);
 char	*my_strdup(char *str);
 
-
-#endif
+#endif /* !LIBMY_H_ */
