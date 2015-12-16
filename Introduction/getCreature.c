@@ -5,24 +5,13 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 08:50:05 2015 POLI Yoann
-** Last update Tue Dec 15 08:50:07 2015 POLI Yoann
+** Last update Wed Dec 16 10:47:14 2015 HUSSAIN Faisal
 */
 
 #include <stdlib.h>
 #include <string.h>
 
 #define NBCREA 5
-
-typedef struct  s_creature
-{
-  char		*name;
-  int		lvl;
-  int		pv;
-  int		pvmax;
-  int		pm;
-  int		pmmax;
-}		t_creature;
-
 
 static t_creature g_creatures[] =
   {
@@ -31,7 +20,7 @@ static t_creature g_creatures[] =
     {"Yoshi", 1, 10, 10, 20, 20},
     {"Maskas", 1, 10, 10, 20, 20},
     {"Kucco", 1, 10, 10, 20, 20},
-    {NULL, 0, 0, 0, 0, 0}    
+    {NULL, 0, 0, 0, 0, 0}
   };
 
 
