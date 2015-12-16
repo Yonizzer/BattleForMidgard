@@ -5,13 +5,10 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 09:49:07 2015 POLI Yoann
-** Last update Tue Dec 15 10:52:55 2015 POLI Yoann
+** Last update Tue Dec 15 15:37:27 2015 POLI Yoann
 */
 
 #include "headers/libmy.h"
-
-int	begin(char *name_ply, char **argv);
-void	help();
 
 int	parse_arg(int argc, char **argv)
 {
@@ -19,8 +16,7 @@ int	parse_arg(int argc, char **argv)
     {
       if (my_strcmp(argv[1], "-n") == 0)
 	{
-	  /* function principale */
-	  begin(argv[1]);
+	  return (0);
 	}
       else
 	return (-1);
