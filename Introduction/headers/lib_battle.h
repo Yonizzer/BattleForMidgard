@@ -5,11 +5,15 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 10:40:23 2015 POLI Yoann
-** Last update Wed Dec 16 16:10:47 2015 HUSSAIN Faisal
+** Last update Thu Dec 17 10:58:24 2015 POLI Yoann
 */
 
 #ifndef LIB_BATTLE_H_
 # define LIB_BATTLE_H_
+
+/*
+** List
+*/
 
 typedef struct	s_creature
 {
@@ -39,12 +43,18 @@ int		parse_arg(int argc, char **argv);
 void		help();
 void		message_handler(int error);
 int		begin(t_info *, t_creature *);
-t_creature	*getCreature();
+t_creature	*getCreature(t_creature *);
 void		aff_creature(t_creature *);
 void		aff_crtr_name(t_creature *);
 int		magic_catch(t_creature *);
+void		looser_mode(t_creature *);
+void		free_creature(t_creature *);
+void		free_player(t_info *);
+void		free_al(t_creature *, t_info *);
+void		free_creature_choice(t_creature *, char *);
 
 #define RESET	"\e[0m"
+#define BOLD	"\e[1m"
 #define RED	"\e[31m"
 #define GREEN	"\e[32m"
 #define YELLOW	"\e[33m"

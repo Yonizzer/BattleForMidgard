@@ -5,7 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Tue Dec 15 08:50:05 2015 POLI Yoann
-** Last update Wed Dec 16 16:24:06 2015 HUSSAIN Faisal
+** Last update Wed Dec 16 22:47:39 2015 HUSSAIN Faisal
 */
 
 #include <stdlib.h>
@@ -38,11 +38,13 @@ static t_creature g_creatures[] =
   };
 
 
-t_creature	*getCreature()
+t_creature	*getCreature(t_creature *to_free)
 {
   int		rnd;
   t_creature	*crea;
 
+  if (to_free != NULL)
+    free_creature(to_free);
   rnd = rand() % NBCREA;
   if ((crea = malloc(sizeof(t_creature))) == NULL)
     return (NULL);

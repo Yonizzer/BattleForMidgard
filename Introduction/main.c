@@ -5,7 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Mon Dec 14 19:52:15 2015 POLI Yoann
-** Last update Wed Dec 16 16:08:58 2015 HUSSAIN Faisal
+** Last update Thu Dec 17 09:43:40 2015 POLI Yoann
 */
 
 #include <time.h>
@@ -21,6 +21,7 @@ int	runprogram(char **argv, t_creature *creature)
   player = create_player(argv[2]);
   out_begin = begin(player, creature);
   message_handler(out_begin);
+  free_player(player);
   return (0);
 }
 
@@ -30,7 +31,7 @@ int	main(int argc, char **argv)
   t_creature	*monster;
 
   srand(time(NULL));
-  monster = getCreature();
+  monster = getCreature(NULL);
   check = parse_arg(argc, argv);
   if (check == -1)
     help();

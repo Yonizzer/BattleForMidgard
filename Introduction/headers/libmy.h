@@ -5,7 +5,7 @@
 ** Login   <poli_y@etna-alternance.net>
 ** 
 ** Started on  Mon Dec 14 20:11:33 2015 POLI Yoann
-** Last update Wed Dec 16 11:32:44 2015 POLI Yoann
+** Last update Thu Dec 17 10:58:50 2015 POLI Yoann
 */
 
 #ifndef LIBMY_H_
@@ -17,6 +17,7 @@ int	my_is_odd(int n);
 void	my_put_nbr(int nb);
 void	my_swap(int *a, int *b);
 void	my_putstr(char *str);
+void	my_putstr_clr(char *str, char *);
 int	my_strlen(char *str);
 int	my_getnbr(char *str);
 char	*mystrcpy(char *dest, char *src);

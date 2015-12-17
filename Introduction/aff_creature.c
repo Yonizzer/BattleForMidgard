@@ -5,7 +5,7 @@
 ** Login   <hussai_f@etna-alternance.net>
 ** 
 ** Started on  Wed Dec 16 10:43:16 2015 HUSSAIN Faisal
-** Last update Wed Dec 16 15:21:48 2015 HUSSAIN Faisal
+** Last update Wed Dec 16 23:22:40 2015 HUSSAIN Faisal
 */
 
 #include "headers/libmy.h"
@@ -13,12 +13,13 @@
 
 void	aff_creature(t_creature *crtr)
 {
-  my_putstr(crtr->name);
-  my_putstr("\nLevel\t");
+  my_putstr("\n\t");
+  my_putstr_clr(crtr->name, RED);
+  my_putstr_clr("\n\tLevel\t", CYAN);
   my_put_nbr(crtr->lvl);
-  my_putstr("\nPVmax\t");
+  my_putstr_clr("\n\tPVmax\t", CYAN);
   my_put_nbr(crtr->pvmax);
-  my_putstr("\nPMmax\t");
+  my_putstr_clr("\n\tPMmax\t", CYAN);
   my_put_nbr(crtr->pmmax);
   my_putstr("\n");
 }

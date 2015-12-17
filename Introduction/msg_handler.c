@@ -5,9 +5,8 @@
 ** Login   <hussai_f@etna-alternance.net>
 ** 
 ** Started on  Wed Dec 16 15:24:37 2015 HUSSAIN Faisal
-** Last update Wed Dec 16 15:25:02 2015 HUSSAIN Faisal
+** Last update Thu Dec 17 10:56:07 2015 POLI Yoann
 */
-
 
 #include "headers/libmy.h"
 #include "headers/lib_battle.h"
